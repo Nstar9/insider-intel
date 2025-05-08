@@ -15,6 +15,21 @@ This project scrapes live data from [OpenInsider](http://openinsider.com), filte
 - Calculates returns after 7 and 14 days from the trade date
 - Flags trades that show unusually high post-trade returns for further investigation
 
+## Example: What This Project Does in Simple Terms
+
+Imagine a company executive buys 20,000 shares of their own company at $10 on May 1st, 2025.
+
+Our system does three things:
+1. **Tracks that trade** using scraped public filings (e.g., Form 4).
+2. **Fetches stock prices** for the following days (e.g., May 8th, May 15th).
+3. **Calculates returns** — for example, if the stock hits $12 after 7 days, that’s a 20% gain.
+
+If several such trades by different insiders consistently show 15–30% gains, those trades might contain hidden signals — which is exactly what we're trying to detect.
+
+So in short:  
+> We track what insiders are doing, check how their trades perform after a week or two, and try to flag the most “unusually good” ones.
+
+
 ---
 
 ## Project Structure
