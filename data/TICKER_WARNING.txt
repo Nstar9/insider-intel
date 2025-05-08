@@ -1,0 +1,2 @@
+No valid tickers were loaded. Please create ticker files manually.
+Expected files: sp500_tickers.txt, nyse_tickers.txt, nasdaq_tickers.txt
