@@ -1,5 +1,4 @@
 
-```markdown
 # Insider Intel — Tracking Real Insider Trades for Hidden Alpha
 
 **Insider Intel** is a Python-based quant research project built to analyze insider trading activity from SEC Form 4 filings. The goal is to identify patterns in corporate insider behavior that may signal unusually profitable or suspicious trades — a potential source of “hidden alpha.”
